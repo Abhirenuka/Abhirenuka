@@ -1,0 +1,13 @@
+import math
+n=int(input('enter no of values'))
+l=[]
+d=dict()
+for x in range(1,1000):
+    root=math.sqrt(n)
+if int(root+0.5)**2==n:
+    print('yes')
+else:
+    print('no')
+Output:
+enter no of values55
+no
